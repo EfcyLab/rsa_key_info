@@ -3,7 +3,7 @@
 """
 Script: rsa_key_info.py
 Author: EfcyLab
-Inspired by: https://tryhackme.com/rooms/breakrsa room
+Inspired by: https://tryhackme.com/room/breakrsa room
 Date: 2024-02-24
 License: MIT License
 
@@ -25,7 +25,7 @@ from Crypto.PublicKey.RSA import import_key
 os.system("clear")
 banner = pyfiglet.figlet_format("RSA Key Info")
 print(banner)
-print("by EfcyLab (@EfcyLab), inspired by https://tryhackme.com/rooms/breakrsa room\n")
+print("by EfcyLab (@EfcyLab), inspired by https://tryhackme.com/room/breakrsa room.\n")
 
 def get_key_length(public_key_file):
     """
@@ -175,6 +175,6 @@ def main():
     for option, action in actions.items():
         if getattr(args, option):
             action()
-                
+
 if __name__ == "__main__":
     main()

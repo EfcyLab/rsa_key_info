@@ -2,7 +2,7 @@
 
 RSA Key Info is a Python script that extracts information from a given RSA public key file. It can display various details about the key, such as its length, modulus, and prime factors, as well as generate a private key from the extracted modulus.
 
-This script was inspired by the [Breaking RSA](https://tryhackme.com/rooms/breakrsa) box from TryHackMe.
+This script was inspired by the [Breaking RSA](https://tryhackme.com/room/breakrsa) box from TryHackMe.
 
 ## Installation
 
